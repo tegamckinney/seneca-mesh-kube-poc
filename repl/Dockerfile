@@ -1,5 +1,5 @@
 FROM node:8.3.0
-LABEL maintainer="Gumspace Admin"
+LABEL maintainer="Demo Admin"
 
 RUN mkdir /app
 ENV APP_HOME=/app

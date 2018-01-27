@@ -31,7 +31,7 @@ function addPort (ip) {
 const service = Seneca(opts.seneca)
   .test('print')
   .use('kubernetes', {
-    namespace: 'gum-labs',
+    namespace: 'demo-labs',
     k8s_url: process.env.KUBERNETES_SERVICE_HOST,
     log: console.log
   })
